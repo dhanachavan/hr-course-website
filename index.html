@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Portal | Manufacturing Excellence</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Training Portal</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Elevate Your Skills</h1>
+                <p>Discover tailored training programs designed to enhance your manufacturing expertise.</p>
+                <a href="#courses" class="btn primary-btn">Explore Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Choose Your Learning Path</h2>
+            <p class="section-desc">Select from our professionally designed courses to advance your career</p>
+            
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All Courses</button>
+                <button class="filter-btn" data-filter="technical">Technical</button>
+                <button class="filter-btn" data-filter="safety">Safety</button>
+                <button class="filter-btn" data-filter="leadership">Leadership</button>
+                <button class="filter-btn" data-filter="quality">Quality Control</button>
+            </div>
+            
+            <div class="course-grid">
+                <!-- Technical Courses -->
+                <div class="course-card" data-category="technical">
+                    <div class="course-img">
+                        <img src="images/course-technical-1.jpg" alt="Advanced Machinery Operation">
+                    </div>
+                    <div class="course-info">
+                        <span class="course-tag">Technical</span>
+                        <h3>Advanced Machinery Operation</h3>
+                        <p>Master the operation of advanced manufacturing equipment with hands-on training.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 24 Hours</span>
+                            <span><i class="fas fa-user-graduate"></i> Intermediate</span>
+                        </div>
+                        <a href="#" class="btn secondary-btn">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="course-card" data-category="technical">
+                    <div class="course-img">
+                        <img src="images/course-technical-2.jpg" alt="Automated Systems Maintenance">
+                    </div>
+                    <div class="course-info">
+                        <span class="course-tag">Technical</span>
+                        <h3>Automated Systems Maintenance</h3>
+                        <p>Learn preventative maintenance techniques for automated manufacturing systems.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 32 Hours</span>
+                            <span><i class="fas fa-user-graduate"></i> Advanced</span>
+                        </div>
+                        <a href="#" class="btn secondary-btn">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Safety Courses -->
+                <div class="course-card" data-category="safety">
+                    <div class="course-img">
+                        <img src="images/course-safety-1.jpg" alt="Workplace Safety Protocols">
+                    </div>
+                    <div class="course-info">
+                        <span class="course-tag">Safety</span>
+                        <h3>Workplace Safety Protocols</h3>
+                        <p>Comprehensive training on implementing safety protocols in manufacturing environments.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 16 Hours</span>
+                            <span><i class="fas fa-user-graduate"></i> All Levels</span>
+                        </div>
+                        <a href="#" class="btn secondary-btn">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="course-card" data-category="safety">
+                    <div class="course-img">
+                        <img src="images/course-safety-2.jpg" alt="Emergency Response Training">
+                    </div>
+                    <div class="course-info">
+                        <span class="course-tag">Safety</span>
+                        <h3>Emergency Response Training</h3>
+                        <p>Learn to effectively respond to workplace emergencies and minimize risks.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 8 Hours</span>
+                            <span><i class="fas fa-user-graduate"></i> All Levels</span>
+                        </div>
+                        <a href="#" class="btn secondary-btn">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Leadership Courses -->
+                <div class="course-card" data-category="leadership">
+                    <div class="course-img">
+                        <img src="images/course-leadership-1.jpg" alt="Team Management">
+                    </div>
+                    <div class="course-info">
+                        <span class="course-tag">Leadership</span>
+                        <h3>Team Management</h3>
+                        <p>Develop essential skills to lead manufacturing teams effectively and boost productivity.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 20 Hours</span>
+                            <span><i class="fas fa-user-graduate"></i> Intermediate</span>
+                        </div>
+                        <a href="#" class="btn secondary-btn">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="course-card" data-category="leadership">
+                    <div class="course-img">
+                        <img src="images/course-leadership-2.jpg" alt="Strategic Planning">
+                    </div>
+                    <div class="course-info">
+                        <span class="course-tag">Leadership</span>
+                        <h3>Strategic Planning</h3>
+                        <p>Learn to develop and implement strategic plans to optimize manufacturing operations.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 24 Hours</span>
+                            <span><i class="fas fa-user-graduate"></i> Advanced</span>
+                        </div>
+                        <a href="#" class="btn secondary-btn">Learn More</a>
+                    </div>
+                </div>
+                
+                <!-- Quality Control Courses -->
+                <div class="course-card" data-category="quality">
+                    <div class="course-img">
+                        <img src="images/course-quality-1.jpg" alt="Quality Assurance Fundamentals">
+                    </div>
+                    <div class="course-info">
+                        <span class="course-tag">Quality Control</span>
+                        <h3>Quality Assurance Fundamentals</h3>
+                        <p>Master the principles and practices of quality assurance in manufacturing.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 16 Hours</span>
+                            <span><i class="fas fa-user-graduate"></i> Beginner</span>
+                        </div>
+                        <a href="#" class="btn secondary-btn">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="course-card" data-category="quality">
+                    <div class="course-img">
+                        <img src="images/course-quality-2.jpg" alt="Six Sigma Green Belt">
+                    </div>
+                    <div class="course-info">
+                        <span class="course-tag">Quality Control</span>
+                        <h3>Six Sigma Green Belt</h3>
+                        <p>Learn proven Six Sigma methodologies to improve manufacturing processes.</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 40 Hours</span>
+                            <span><i class="fas fa-user-graduate"></i> Intermediate</span>
+                        </div>
+                        <a href="#" class="btn secondary-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Our Training Program</h2>
+                    <p>Our manufacturing training programs are designed by industry experts with decades of hands-on experience. We focus on practical skills development that directly impacts productivity, safety, and quality in your manufacturing operations.</p>
+                    <p>With state-of-the-art facilities and cutting-edge curriculum, we ensure that each participant receives personalized attention and achieves measurable improvements in their skills and knowledge.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>150+</h3>
+                            <p>Courses Available</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>5,000+</h3>
+                            <p>Trained Professionals</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>98%</h3>
+                            <p>Satisfaction Rate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-training.jpg" alt="Manufacturing Training">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p class="section-desc">Have questions about our training programs? Contact us today.</p>
+            
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="department">Department</label>
+                            <select id="department" name="department">
+                                <option value="">Select Department</option>
+                                <option value="production">Production</option>
+                                <option value="maintenance">Maintenance</option>
+                                <option value="quality">Quality Control</option>
+                                <option value="management">Management</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Submit</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>123 Manufacturing Way, Industrial Park<br>Business District, CA 90210</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>training@manufacturingexcellence.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Office Hours</h3>
+                            <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Training Portal</h2>
+                    <p>Excellence in Manufacturing Training</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Course Catalog</a></li>
+                        <li><a href="#">Training Calendar</a></li>
+                        <li><a href="#">Certification</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to our newsletter for the latest training programs</p>
+                    <form>
+                        <input type="email" placeholder="Your Email Address">
+                        <button type="submit" class="btn primary-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Manufacturing Excellence Training Portal. All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
