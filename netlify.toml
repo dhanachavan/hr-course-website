@@ -1,0 +1,12 @@
+# Netlify Configuration File
+
+# Set the build directory
+[build]
+  publish = "/"
+  
+# Set custom headers
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/*"
+    [headers.values]
+    Cache-Control = "public, max-age=86400"
